@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    JIS X 0212 (aka JIS 2000) Encodings
 License:    GPL+ or Artistic
@@ -14,6 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/Encode/%{upstream_name}-%{upst
 BuildRequires: perl(Encode)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+Provides: perl(Encode::JIS2K::2022JP3)
 
 %description
 To find out how to use this module in detail, see the Encode manpage.
