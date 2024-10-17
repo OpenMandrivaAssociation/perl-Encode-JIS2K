@@ -8,7 +8,7 @@ Release:	6
 Summary:    JIS X 0212 (aka JIS 2000) Encodings
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
+Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Encode/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Encode)
